@@ -1,0 +1,14 @@
+{
+	"modID": "heatstuff",
+	"name": "Heat Stuff",
+	"version": "1.0.0",
+	"author": "tyllerthegamer",
+	"shortDescription": "Adds heat",
+    "description": "Adds a heat system that runs on your GPU (dw it doesn't turn your gpu into a heat system aswell)",
+	"fluxloaderVersion": ">=2.0.0",
+	"dependencies": {"corelib": "^3.0.0"},
+	"tags": [],
+	"gameEntrypoint": "init.js",
+	"workerEntrypoint": "manager.js",
+	"electronEntrypoint": "pre.js"
+}
